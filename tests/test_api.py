@@ -23,6 +23,9 @@ def get_browsers_with_missed_or_incorrect_min_field(data):
     """
     Checks all browsers in the given data
     and return non-empty list if the 'min' key is missed or is None for any browsers.
+
+    :param data: The dictionary to check.
+    :return: non-empty list if the 'min' key is missed or is None for any browsers
     """
     failed_browsers = []
     if isinstance(data, dict):
@@ -48,7 +51,6 @@ def test_get_response_fields(api_client):
 
     data = response.json()
 
-    # Check if required fields are in the response
     assert has_nested_key(data, ['settings', 'idnow', 'autoident', 'web', 'browserSupportMatrix'])
     matrix = data['settings']['idnow']['autoident']['web']['browserSupportMatrix']
 
