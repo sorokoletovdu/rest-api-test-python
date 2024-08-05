@@ -1,6 +1,6 @@
 # API Test Framework
 
-This project is a test framework for testing a REST API using Python and `pytest`. The API to be tested is an HTTP GET API with the URL: `https://api.test.idnow.de/api/v1/ihrebank`.
+This project is a test framework for testing a REST API using Python and `pytest`. The API to be tested is an HTTP GET API.
 
 ## Project Structure
 
