@@ -10,7 +10,7 @@ rest-api-test-python/
 │   ├── api_helper.py
 ├── tests/
 │   ├── test_api.py
-├── conftest.py
+│   ├── conftest.py
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
