@@ -40,6 +40,11 @@ rest-api-test-python/
     ```sh
     pip install -r requirements.txt
     ```
+   
+4. Add the project to the Python path:
+   ```sh
+   export PYTHONPATH=$(pwd)
+   ```
 
 ## Usage
 
